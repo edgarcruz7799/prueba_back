@@ -3,7 +3,7 @@
 
 use \Phalcon\Mvc\Model;
 
-class Pregunta extends Model
+class Preguntas extends Model
 {
     /**
      *

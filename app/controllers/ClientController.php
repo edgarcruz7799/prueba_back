@@ -167,7 +167,8 @@ class ClientController extends ControllerBase {
                 /**
                  * Se crea el caso
                  */
-                $pqrs = new Pqrs(); 
+                $pqrs = new Solicitudespqrs(); 
+                print_r($pqrs);die;
 
                 $pqrs->id_user = (string) $dataRequest->id_user;
                 $pqrs->nombre_caso = (string) $dataRequest->nombre_caso;
